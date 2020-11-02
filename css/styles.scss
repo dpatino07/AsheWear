@@ -149,7 +149,7 @@ header nav {
              &:hover {
                  background-color: #fff;
                  color: $primary-color;
-                 transition: 1s ease-in-out 0s;
+                 transition: 0.4s ease-in-out 0s;
              }
         }
     }
@@ -519,7 +519,7 @@ header nav {
             }
 
             p.button {
-                background-color: $secondary-color;
+                background-color: $primary-color;
                 box-shadow: 0px 1px 3.92px 0.08px rgba(204, 204, 153, 0.35);
                 width: 45%;
                 text-align: center;
@@ -535,7 +535,7 @@ header nav {
                 &:hover {
                     cursor: pointer;
                     background-color: #ffffff;
-                    color: $secondary-color;
+                    color: $primary-color;
                     transition: background-color 1s ease-in-out 0s;
                     transition: color 400ms ease-in-out 0s;
                 }
@@ -882,9 +882,9 @@ header nav {
 #contact .container h4 {
 	font-family: "Franklin Gothic Medium";
 	color: #ffffff;
-	font-size: 1.125rem;
+	font-size: 1.6rem;
 	font-weight: 400;
-	letter-spacing: 0.056rem;
+	letter-spacing: 0.1rem;
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 3rem;
@@ -894,9 +894,9 @@ header nav {
 #contact .container p {
 	font-family: Cambria;
 	color: #ffffff;
-	font-size: 0.875rem;
+	font-size: 1.2rem;
 	font-weight: 400;
-	letter-spacing: 0.044rem;
+	letter-spacing: 0.2rem;
 	text-align: center;
 	padding: 0.2rem 0rem;
 }

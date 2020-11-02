@@ -151,8 +151,8 @@ header nav .nav-icon {
 #header-hero .header-content .button:hover {
   background-color: #fff;
   color: #c49703;
-  -webkit-transition: 1s ease-in-out 0s;
-  transition: 1s ease-in-out 0s;
+  -webkit-transition: 0.4s ease-in-out 0s;
+  transition: 0.4s ease-in-out 0s;
 }
 
 @media only screen and (max-width: 768px) {
@@ -522,7 +522,7 @@ header nav .nav-icon {
 }
 
 #collections .container .c-2 p.button {
-  background-color: #347b88;
+  background-color: #c49703;
   -webkit-box-shadow: 0px 1px 3.92px 0.08px rgba(204, 204, 153, 0.35);
           box-shadow: 0px 1px 3.92px 0.08px rgba(204, 204, 153, 0.35);
   width: 45%;
@@ -540,7 +540,7 @@ header nav .nav-icon {
 #collections .container .c-2 p.button:hover {
   cursor: pointer;
   background-color: #ffffff;
-  color: #347b88;
+  color: #c49703;
   -webkit-transition: background-color 1s ease-in-out 0s;
   transition: background-color 1s ease-in-out 0s;
   -webkit-transition: color 400ms ease-in-out 0s;
@@ -906,9 +906,9 @@ header nav .nav-icon {
 #contact .container h4 {
   font-family: "Franklin Gothic Medium";
   color: #ffffff;
-  font-size: 1.125rem;
+  font-size: 1.6rem;
   font-weight: 400;
-  letter-spacing: 0.056rem;
+  letter-spacing: 0.1rem;
   text-align: center;
   text-transform: uppercase;
   padding-top: 3rem;
@@ -918,9 +918,9 @@ header nav .nav-icon {
 #contact .container p {
   font-family: Cambria;
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  letter-spacing: 0.044rem;
+  letter-spacing: 0.2rem;
   text-align: center;
   padding: 0.2rem 0rem;
 }
